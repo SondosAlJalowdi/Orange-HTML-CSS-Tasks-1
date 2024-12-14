@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise #1</title>
+    <style>
+        input {
+            margin-bottom: 8px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Registration Form</h1>
+    <form>
+        <div style="text-align: right; width:20% ;">
+            <div style="text-align: left; margin-left: 35px;">
+                <label for="ids" style="margin-left: 5px;"> User id:</label>
+                <input id="ids" type="text" name="ids" size="5">
+            </div>
+            <div style="text-align: left; margin-left: 20px;">
+                <label for="password" id="password" name="password" style="margin-left: 5px;">Password:</label>
+                <input type="password" size="5">
+            </div>
+            <label for="name">
+                Name:
+                <input type="text" id="name" name="name">
+            </label>
+            <br>
+            <label>
+                Address:
+                <input type="text">
+            </label>
+            <br>
+            <label>
+                Country:
+                <select>
+                    <option>
+                        (Please select a country)
+                    </option>
+                </select>
+                <br>
+            </label>
+            <br>
+            <label>
+                Zip Code:
+                <input type="text">
+            </label>
+            <br>
+            <label>
+                Email:
+                <input type="text">
+            </label>
+            <br>
+            <label>
+                Sex:
+                <input type="radio" value="Male">Male
+                <input type="radio" value="Female">Female
+            </label>
+            <br>
+            <label>
+                Language:
+                <input type="checkbox" checked value="English">English
+                <input type="checkbox" value="Non English">Non English
+            </label>
+            <br>
+            <label for="about" style="float: left; margin-left: 16px;">About:</label>
+            <input id="about" type="text" style="height:100px; width:200px;">
+            <input type="submit" value="Submit" style="display: block; margin: auto;">
+        </div>
+        </div>
+
+    </form>
+
+</body>
+
+</html>

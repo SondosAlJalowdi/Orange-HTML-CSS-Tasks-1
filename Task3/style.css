@@ -1,0 +1,23 @@
+.External-Style {
+    background-color:wheat;
+
+}
+
+article {
+    background-color: white;
+    width: 650px;
+    margin-bottom: 15px;
+}
+div {
+   padding: 6px;
+}
+.black-article {
+    border: 1px solid black;
+}
+.red-article {
+    color: red;
+    border: 1px dashed red;
+}
+.red-paragraph {
+    border: 2px dotted red;
+}
